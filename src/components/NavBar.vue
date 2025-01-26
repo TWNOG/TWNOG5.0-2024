@@ -6,19 +6,8 @@
 
       <!-- 導航鏈接 -->
       <div class="hidden md:flex lg:flex space-x-4 whitespace-nowrap">
-        <router-link to="/call-for-speakers" class="hover:bg-amber-400 rounded-md px-6 py-3">徵求演講</router-link>
+        <router-link to="/sessions" class="hover:bg-amber-400 rounded-md px-6 py-3">活動議程</router-link>
         <router-link to="/transportation" class="hover:bg-amber-400 rounded-md px-6 py-3">交通方式</router-link>
-        <div class="relative" @mouseenter="mouseEnterEvent" @mouseleave="mouseLeaveEvent">
-          <div :class="['cursor-pointer rounded-md px-6 py-3', isEventHover ? 'bg-amber-400' : 'hover:bg-amber-400']">歷年活動</div>
-          <!-- 展開的歷年活動 -->
-          <div :class="{'hidden': !isEventHover, 'flex': isEventHover, 'flex-col': isEventHover, 'space-y-2': isEventHover, 'absolute': isEventHover, 'top-full': isEventHover, 'z-10': isEventHover}" class="bg-amber-100 border-b-2 border-amber-200 rounded-md w-full">
-            <a href="#" class="hover:text-sky-500 rounded-md px-4 py-3">TWNOG 1</a>
-            <a href="#" class="hover:text-sky-500 rounded-md px-4 py-3">TWNOG 2</a>
-            <a href="#" class="hover:text-sky-500 rounded-md px-4 py-3">TWNOG 3</a>
-            <a href="#" class="hover:text-sky-500 rounded-md px-4 py-3">TWNOG 4</a>
-          </div>
-        </div>
-        <router-link to="/volunteers" class="hover:bg-amber-400 rounded-md px-6 py-3">志工團隊</router-link>
         <router-link to="/collaborators" class="hover:bg-amber-400 rounded-md px-6 py-3">合作夥伴</router-link>
       </div>
 
@@ -31,25 +20,11 @@
   
   <!-- 手機版選單 -->
   <div ref="menu" :class="{'hidden': !isMenuOpen, 'flex': isMenuOpen, 'flex-col': isMenuOpen, 'space-y-3': isMenuOpen, 'sticky top-16 z-50': true}" class="md:hidden items-center bg-amber-100 text-yellow-900 border-b-4 border-t-4 border-amber-200 py-3">
-    <router-link to="/call-for-speakers" class="hover:bg-amber-400 rounded-md px-4 py-2">
-      <span class="border-b border-amber-300 py-2 px-5">徵求演講</span>
+    <router-link to="/sessions" class="hover:bg-amber-400 rounded-md px-4 py-2">
+      <span class="border-b border-amber-300 py-2 px-5">活動議程</span>
     </router-link>
     <router-link to="/transportation" class="hover:bg-amber-400 rounded-md px-4 py-2">
       <span class="border-b border-amber-300 py-2 px-5">交通方式</span>
-    </router-link>
-    <!-- 使用 div 觸發顯示隱藏 -->
-    <div @click="clickEvent" class="cursor-pointer hover:bg-amber-400 rounded-md px-4 py-2">
-      <span class="border-b border-amber-300 py-2 px-5">歷年活動</span>
-    </div>
-    <!-- 展開的菜單部分 -->
-    <div :class="{'hidden': !isEventClick, 'flex': isEventClick, 'flex-col': isEventClick, 'space-y-2': isEventClick, 'py-3': isEventClick}" class="w-full items-center bg-amber-300 text-white">
-      <a href="#" class="hover:text-sky-600 rounded-md px-4 py-1">TWNOG 1</a>
-      <a href="#" class="hover:text-sky-600 rounded-md px-4 py-1">TWNOG 2</a>
-      <a href="#" class="hover:text-sky-600 rounded-md px-4 py-1">TWNOG 3</a>
-      <a href="#" class="hover:text-sky-600 rounded-md px-4 py-1">TWNOG 4</a>
-    </div>
-    <router-link to="/volunteers" class="hover:bg-amber-400 rounded-md px-4 py-2">
-      <span class="border-b border-amber-300 py-2 px-5">志工團隊</span>
     </router-link>
     <router-link to="/collaborators" class="hover:bg-amber-400 rounded-md px-4 py-2">
       <span class="border-b border-amber-300 py-2 px-5">合作夥伴</span>

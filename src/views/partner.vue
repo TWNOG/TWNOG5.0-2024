@@ -6,29 +6,29 @@
             <div class="border-r-4 border-amber-500 md: h-6 md:h-8"></div>
         </div>
     </div>
+    <div class="bg-white">
+        <div class="px-8 md:px-16 py-8 md:py-10">
+            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">白金級贊助商 Platinum</h2>
+        </div>
+    </div>
     <div class="bg-gray-100">
         <div class="px-8 md:px-16 py-8 md:py-10">
-            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">Tatanium</h2>
+            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">黃金級贊助商 Gold</h2>
         </div>
     </div>
     <div class="bg-white">
         <div class="px-8 md:px-16 py-8 md:py-10">
-            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">Platinum</h2>
+            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">銀級贊助商 Silver</h2>
         </div>
     </div>
     <div class="bg-gray-100">
         <div class="px-8 md:px-16 py-8 md:py-10">
-            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">Gold</h2>
-        </div>
-    </div>
-    <div class="bg-white">
-        <div class="px-8 md:px-16 py-8 md:py-10">
-            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">Silver</h2>
+            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">特別感謝 - 工作坊場地贊助</h2>
         </div>
     </div>
     <div class="bg-gray-100">
         <div class="px-8 md:px-16 py-8 md:py-10">
-            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">Special Thanks</h2>
+            <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">協辦單位</h2>
         </div>
     </div>
 </template>
