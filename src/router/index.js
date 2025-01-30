@@ -1,17 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import HomePage from '../views/HomePage.vue'; // 引入 HomePage 组件
-import CallForSpeakers from '../views/CallForSpeakers.vue'; // 引入 CallForSpeakers 组件
-import Transportation from '../views/Transportation.vue'; // 引入 Transportation 组件
-import Volunteers from '../views/Volunteers.vue'; // 引入 Volunteers 组件
-import Collaborators from '../views/Collaborators.vue'; // 引入 Collaborators 组件
+import SessionsPage from '../views/sessions.vue'; // 引入 HomePage 组件
+import Transportation from '../views/traffic.vue'; // 引入 Transportation 组件
+import Partner from '../views/partner.vue'; // 引入 Collaborators 组件
 
 const routes = [
     { path: '/', component: HomePage },
-    { path: '/call-for-speakers', component: CallForSpeakers },
+    { path: '/sessions', component: SessionsPage },
     { path: '/transportation', component: Transportation },
-    { path: '/volunteers', component: Volunteers },
-    { path: '/collaborators', component: Collaborators },
+    { path: '/collaborators', component: Partner },
 ];
 
 const router = createRouter({
