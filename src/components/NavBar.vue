@@ -7,8 +7,8 @@
       <!-- 導航鏈接 -->
       <div class="hidden md:flex lg:flex space-x-4 whitespace-nowrap">
         <router-link to="/sessions" class="hover:bg-amber-400 rounded-md px-6 py-3">活動議程</router-link>
-        <router-link to="/transportation" class="hover:bg-amber-400 rounded-md px-6 py-3">交通方式</router-link>
-        <router-link to="/collaborators" class="hover:bg-amber-400 rounded-md px-6 py-3">合作夥伴</router-link>
+        <router-link to="/traffic" class="hover:bg-amber-400 rounded-md px-6 py-3">交通方式</router-link>
+        <router-link to="/partner" class="hover:bg-amber-400 rounded-md px-6 py-3">合作夥伴</router-link>
       </div>
 
       <!-- 手機端選單按鈕 -->
@@ -23,10 +23,10 @@
     <router-link to="/sessions" class="hover:bg-amber-400 rounded-md px-4 py-2">
       <span class="border-b border-amber-300 py-2 px-5">活動議程</span>
     </router-link>
-    <router-link to="/transportation" class="hover:bg-amber-400 rounded-md px-4 py-2">
+    <router-link to="/traffic" class="hover:bg-amber-400 rounded-md px-4 py-2">
       <span class="border-b border-amber-300 py-2 px-5">交通方式</span>
     </router-link>
-    <router-link to="/collaborators" class="hover:bg-amber-400 rounded-md px-4 py-2">
+    <router-link to="/partner" class="hover:bg-amber-400 rounded-md px-4 py-2">
       <span class="border-b border-amber-300 py-2 px-5">合作夥伴</span>
     </router-link>
   </div>
