@@ -35,7 +35,7 @@
     
 <script>
 export default {
-    name: 'Collaborators',
+    name: 'Partner',
     
 };
 </script>
