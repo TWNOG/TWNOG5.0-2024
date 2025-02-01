@@ -30,14 +30,14 @@ export default {
             partners: [
                 {
                     level: '指導單位', companies: [
-                        { name: '數位發展部', img: 'MODA.jpg', url: 'https://www.moda.gov.tw/' }
+                        { name: '數位發展部', img: 'MODA.jpg'}
                     ]
                 },
                 {
                     "level": "白金級贊助商 Platinum",
                     "companies": [
-                        { "name": "CHT", "img": "CHT.jpg", "url": "" },
-                        { "name": "CHT-CDN", "img": "CHT-CDN.jpg", "url": "" },
+                        { "name": "CHT", "img": "CHT.jpg"},
+                        { "name": "CHT-CDN", "img": "CHT-CDN.jpg"},
                         { "name": "JPIX", "img": "JPIX.jpg" },
                         { "name": "opengear", "img": "opengear.jpg" },
                         { "name": "isoc-fun", "img": "isoc-fun.png" }
