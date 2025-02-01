@@ -12,9 +12,9 @@
             <h2 class="text-xl md:text-2xl text-amber-400 font-bold mb-6">{{ level }}</h2>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <div v-for="partner in partners" :key="partner.name" class="text-center">
-                    <a :href="partner.url" target="_blank" class="block">
-                        <img :src="getLogoPath(partner.img)" :alt="partner.name" class="mx-auto h-20 object-contain" />
-                        <p class="mt-2 text-lg font-medium">{{ partner.name }}</p>
+                    <a :href="partner.url" target="_blank"
+                        class="block border border-gray-200 p-4 rounded-lg hover:shadow-md bg-white h-32 flex items-center justify-center">
+                        <img :src="getLogoPath(partner.img)" :alt="partner.name" class="max-h-full object-contain" />
                     </a>
                 </div>
             </div>
@@ -30,14 +30,14 @@ export default {
             partners: [
                 {
                     level: '指導單位', companies: [
-                        { name: '數位發展部', img: 'MODA.jpg'}
+                        { name: '數位發展部', img: 'MODA.jpg' }
                     ]
                 },
                 {
                     "level": "白金級贊助商 Platinum",
                     "companies": [
-                        { "name": "CHT", "img": "CHT.jpg"},
-                        { "name": "CHT-CDN", "img": "CHT-CDN.jpg"},
+                        { "name": "CHT", "img": "CHT.jpg" },
+                        { "name": "CHT-CDN", "img": "CHT-CDN.jpg" },
                         { "name": "JPIX", "img": "JPIX.jpg" },
                         { "name": "opengear", "img": "opengear.jpg" },
                         { "name": "isoc-fun", "img": "isoc-fun.png" }
