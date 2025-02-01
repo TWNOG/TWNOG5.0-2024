@@ -66,6 +66,13 @@ export default {
                     ]
                 },
                 {
+                    "level": "工作坊 Workshop",
+                    "companies": [
+                        { "name": "Google", "img": "Google.svg" },
+                        { "name": "APNIC", "img": "APNIC.png" }
+                    ]
+                },
+                {
                     "level": "協辦單位",
                     "companies": [
                         { "name": "OCF 開放文化基金會", "img": "ocf.png" },
@@ -86,7 +93,7 @@ export default {
     },
     methods: {
         getBackgroundClass(level) {
-            return ['白金級贊助商 Platinum', '銀級贊助商 Silver'].includes(level) ? 'bg-white' : 'bg-gray-100';
+            return ['白金級贊助商 Platinum', '銀級贊助商 Silver', '協辦單位'].includes(level) ? 'bg-white' : 'bg-gray-100';
         },
         getLogoPath(fileName) {
             return `/assets/sponsors/${fileName}`;
