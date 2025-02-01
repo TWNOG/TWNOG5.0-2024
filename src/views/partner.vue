@@ -87,7 +87,14 @@ export default {
             return ['白金級贊助商 Platinum', '銀級贊助商 Silver'].includes(level) ? 'bg-white' : 'bg-gray-100';
         },
         getLogoPath(fileName) {
-            return `/src/assets/sponsors/${fileName}`;
+            try {
+                // Webpack 編譯模式
+                return require(`@/assets/sponsors/${fileName}`);
+            } catch (e) {
+                console.error(`Image not found: ${fileName}`);
+                // Serverless 後備模式
+                return `/src/assets/sponsors/${fileName}`;
+            }
         }
     }
 };
