@@ -50,7 +50,7 @@ export default {
                         { "name": "AWS", "img": "aws.png" },
                         { "name": "ODC", "img": "ODC.png" },
                         { "name": "BBIX", "img": "BBIX.png" },
-                        { "name": "Ampyrean", "img": "ampyrean.jpg" }
+                        { "name": "EPOCH", "img": "ampyrean.jpg" }
                     ]
                 },
                 {
@@ -58,22 +58,17 @@ export default {
                     "companies": [
                         { "name": "Equinix", "img": "Equinix.jpg" },
                         { "name": "ICANN", "img": "ICANN.jpg" },
-                        { "name": "SUNeVision", "img": "SUNeVision.jpg" }
-                    ]
-                },
-                {
-                    "level": "特別感謝 - 工作坊場地贊助",
-                    "companies": [
+                        { "name": "SUNeVision", "img": "SUNeVision.jpg" },
                         { "name": "Vantage", "img": "Vantage.jpg" },
-                        { "name": "Blue", "img": "Blue.png" }
+                        { "name": "w.media", "img": "Blue.png" }
                     ]
                 },
                 {
                     "level": "協辦單位",
                     "companies": [
-                        { "name": "OCF", "img": "ocf.png" },
-                        { "name": "ISOC TP", "img": "isocTP.jpg" },
-                        { "name": "TSTA", "img": "TSTA.jpg" }
+                        { "name": "OCF 開放文化基金會", "img": "ocf.png" },
+                        { "name": "Internet Society - Taiwan Taipei Chapter", "img": "isocTP.jpg" },
+                        { "name": "TSTA 臺灣智慧技術協會", "img": "TSTA.jpg" }
                     ]
                 }
             ]
