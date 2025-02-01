@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import homepageImage from '@/assets/homepage.jpeg';
+import homepageImage from '@/assets/banner.webp';
 
 export default {
   name: 'HomePage',
