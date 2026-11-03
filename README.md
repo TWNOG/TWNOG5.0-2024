@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Year route
+
+This site is served at `/2024`, including `/2024/sessions`, `/2024/traffic`, and
+`/2024/partner`. Development and preview use the same prefix. Publish `dist/`
+under `/2024/` and configure SPA fallback for `/2024/*` to `/2024/index.html`.

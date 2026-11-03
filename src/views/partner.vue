@@ -96,7 +96,7 @@ export default {
             return ['白金級贊助商 Platinum', '銀級贊助商 Silver', '協辦單位'].includes(level) ? 'bg-white' : 'bg-gray-100';
         },
         getLogoPath(fileName) {
-            return `/assets/sponsors/${fileName}`;
+            return `${import.meta.env.BASE_URL}assets/sponsors/${fileName}`;
         },
     }
 };
